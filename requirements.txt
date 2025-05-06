@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+selenium
+transformers
+fpdf2
+python-docx
+pandas
+undetected-chromedriver
+tqdm
