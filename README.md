@@ -11,7 +11,7 @@ A Python-based web scraper that automates job searches on Indeed and outputs res
 * Splits results into two CSVs: easy apply (`easy_apply_<timestamp>.csv`) and manual apply (`manual_apply_<timestamp>.csv`)
 * Saves a complete dataset as both timestamped CSV and JSON in an `output/` folder
 * Robust error handling with fallback values for missing fields
-* Console logging for each saved job entry and summary of saved files
+* Console logging for each saved job entry and a summary of saved files
 
 ## Prerequisites
 
@@ -35,29 +35,6 @@ A Python-based web scraper that automates job searches on Indeed and outputs res
    * `jobs_scraped_<timestamp>.json` – structured JSON
    * `easy_apply_<timestamp>.csv` – jobs flagged "Yes" for easy apply
    * `manual_apply_<timestamp>.csv` – other jobs
-
-
-## GitHub Deployment
-
-1. Initialize a Git repo (if not already):
-
-   ```bash
-   git init
-   ```
-2. Add and commit your files:
-
-   ```bash
-   git add .
-   git commit -m "Initial commit: Indeed job scraper"
-   ```
-3. Create a new GitHub repo named `indeed-job-listing-scraper` via the web UI.
-4. Link and push:
-
-   ```bash
-   git remote add origin https://github.com/parthicular/indeed-job-listing-scraper.git
-   git branch -M main
-   git push -u origin main
-   ```
 
 ## License
 
